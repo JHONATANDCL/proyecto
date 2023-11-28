@@ -1,0 +1,46 @@
+h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la sección Quién Soy */
+#quien-soy {
+    background-color: #0c0c0c;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Agregamos esta propiedad para centrar el contenido */
+}
+
+h2 {
+    color: #f8f6f6;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #0077cc;
+    margin-top: 15px;
+}
+
+p {
+    color: #eeecec;
+    margin-bottom: 10px;
+}
+
+/* Pie de Página */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #eeeaea;
+}
+
+/* Enlace en el Pie de Página */
+footer a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la sección de Metas */
+#metas {
+    background-color: #383434;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #faf8f8;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #0077cc;
+    margin-top: 15px;
+}
+
+p {
+    color: #f5f4f4;
+    margin-bottom: 10px;
+}
+
+/* Pie de Página */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+/* Enlace en el Pie de Página */
+footer a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

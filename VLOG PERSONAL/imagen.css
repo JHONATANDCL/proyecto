@@ -1,0 +1,47 @@
+/* Añade estos estilos en tu archivo estilo.css o donde prefieras */
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#bienvenida {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.imagen-tarjeta img {
+    width: 200px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease; /* Agrega una transición suave a la sombra */
+}
+
+.imagen-tarjeta img:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.925); /* Cambia el color y la intensidad de la sombra en hover */
+}
+
+.tarjeta-descriptiva {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.tarjeta-descriptiva h2 {
+    color: #fff;
+}
+
+.tarjeta-descriptiva p {
+    color: #ccc;
+}

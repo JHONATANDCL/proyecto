@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+header {
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: #faf4f4;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background: #5a5353;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0,4);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    list-style: none;
+    display: -ms-inline-grid;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #131212;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+}
+
+nav ul li::after{
+    content: "";
+    background: #0a0a0a;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+}
+
+nav ul li:hover{ 
+    color: wheat;
+}
+
+nav ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eef0f1;
+    font-weight: bold;
+
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+body{
+    background:#000;
+}
+
+/* Estilos específicos */
+#inicio {
+    text-align: center;
+}
+
+#acerca {
+    text-align: center;
+}
+
+#pasatiempos {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: #fff;
+    padding: 10px 0;
+}
